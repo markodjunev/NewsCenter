@@ -1,0 +1,45 @@
+﻿using NewsCenter.Data.Common.Repositories;
+using NewsCenter.Data.Models;
+using NewsCenter.Services.Data.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NewsCenter.Services.Data
+{
+    public class CategoriesService : ICategoriesService
+    {
+        private readonly IRepository<Category> categoriesRepository;
+
+        public CategoriesService(IRepository<Category> categoriesRepository)
+        {
+            this.categoriesRepository = categoriesRepository;
+        }
+
+        private IQueryable<Category> All()
+        {
+            return this.categoriesRepository.All().Where(x => x.IsDeleted == false);
+        }
+
+        public bool Any()
+        {
+            return this.All().Any();
+        }
+
+        public async Task CreateAsync(string name, string imageUrl)
+        {
+            var category = new Category
+            {
+                Name = name,
+                ImageUrl = imageUrl,
+                IsDeleted = false,
+                CreatedOn = DateTime.UtcNow,
+            };
+
+            await this.categoriesRepository.AddAsync(category);
+            await this.categoriesRepository.SaveChangesAsync();
+        }
+    }
+}
