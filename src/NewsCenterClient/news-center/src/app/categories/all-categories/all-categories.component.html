@@ -1,0 +1,14 @@
+<div class="container-fluid">
+    <h2 class="text-center m-2">Welcome to NewsCenter</h2>
+    <hr>
+    <div class="row">
+        <div class="col-md-4 media" *ngFor="let category of categories">
+            <img [src]="category.imageUrl" width="200" class="mr-3" alt="category.name">
+            <div class="media-body">
+                <h5 class="mt-0">
+                    {{category.name}}
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>

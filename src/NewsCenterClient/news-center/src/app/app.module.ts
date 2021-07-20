@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { AuthService } from './services/auth/auth.service';
 import { SharedModule } from './shared/shared.module';
 import { UsersModule } from './users/users.module';
+import { CategoriesModule } from './categories/categories.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { UsersModule } from './users/users.module';
     HttpClientModule,
     SharedModule,
     UsersModule,
+    CategoriesModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
   ],
