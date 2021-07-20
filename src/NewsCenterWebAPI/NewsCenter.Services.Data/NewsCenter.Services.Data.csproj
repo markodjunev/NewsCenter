@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\NewsCenter.Data.Common\NewsCenter.Data.Common.csproj" />
     <ProjectReference Include="..\NewsCenter.Data.Models\NewsCenter.Data.Models.csproj" />
+    <ProjectReference Include="..\NewsCenter.Web.ViewModels\NewsCenter.Web.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

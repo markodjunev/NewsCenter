@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-NewsCenterWebAPI-AB9F4796-8A1B-4B17-ABAE-E8AF2D4608FF")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewsCenterWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]

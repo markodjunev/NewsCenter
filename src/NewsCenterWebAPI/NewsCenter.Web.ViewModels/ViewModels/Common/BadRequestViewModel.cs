@@ -1,4 +1,4 @@
-﻿namespace NewsCenterWebAPI.ViewModels.Common
+﻿namespace NewsCenter.Web.ViewModels.ViewModels.Common
 {
     using Microsoft.AspNetCore.Mvc;
 

@@ -49,3 +49,5 @@ C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Services.D
 C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Services.Data\obj\Debug\net5.0\NewsCenter.Services.Data.dll
 C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Services.Data\obj\Debug\net5.0\ref\NewsCenter.Services.Data.dll
 C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Services.Data\obj\Debug\net5.0\NewsCenter.Services.Data.pdb
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Services.Data\bin\Debug\net5.0\NewsCenter.Web.ViewModels.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Services.Data\bin\Debug\net5.0\NewsCenter.Web.ViewModels.pdb

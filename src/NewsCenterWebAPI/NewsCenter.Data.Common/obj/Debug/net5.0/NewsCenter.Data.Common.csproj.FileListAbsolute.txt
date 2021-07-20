@@ -21,3 +21,15 @@ C:\Users\User\Documents\GitHub\NewsCenter\NewsCenterWebAPI\NewsCenter.Data.Commo
 C:\Users\User\Documents\GitHub\NewsCenter\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\NewsCenter.Data.Common.dll
 C:\Users\User\Documents\GitHub\NewsCenter\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\ref\NewsCenter.Data.Common.dll
 C:\Users\User\Documents\GitHub\NewsCenter\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\NewsCenter.Data.Common.pdb
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\bin\Debug\net5.0\NewsCenter.Data.Common.deps.json
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\bin\Debug\net5.0\NewsCenter.Data.Common.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\bin\Debug\net5.0\ref\NewsCenter.Data.Common.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\bin\Debug\net5.0\NewsCenter.Data.Common.pdb
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\NewsCenter.Data.Common.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\NewsCenter.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\NewsCenter.Data.Common.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\NewsCenter.Data.Common.AssemblyInfo.cs
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\NewsCenter.Data.Common.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\NewsCenter.Data.Common.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\ref\NewsCenter.Data.Common.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Data.Common\obj\Debug\net5.0\NewsCenter.Data.Common.pdb

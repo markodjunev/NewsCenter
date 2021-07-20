@@ -1,0 +1,11 @@
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\bin\Debug\net5.0\NewsCenter.Web.ViewModels.deps.json
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\bin\Debug\net5.0\NewsCenter.Web.ViewModels.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\bin\Debug\net5.0\ref\NewsCenter.Web.ViewModels.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\bin\Debug\net5.0\NewsCenter.Web.ViewModels.pdb
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\NewsCenter.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\NewsCenter.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\NewsCenter.Web.ViewModels.AssemblyInfo.cs
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\NewsCenter.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\NewsCenter.Web.ViewModels.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\ref\NewsCenter.Web.ViewModels.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\NewsCenter.Web.ViewModels.pdb

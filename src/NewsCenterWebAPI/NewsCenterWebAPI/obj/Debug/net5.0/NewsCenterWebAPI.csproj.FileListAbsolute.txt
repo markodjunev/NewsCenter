@@ -223,3 +223,8 @@ C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenterWebAPI\obj\
 C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenterWebAPI\obj\Debug\net5.0\ref\NewsCenterWebAPI.dll
 C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenterWebAPI\obj\Debug\net5.0\NewsCenterWebAPI.pdb
 C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenterWebAPI\obj\Debug\net5.0\NewsCenterWebAPI.genruntimeconfig.cache
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenterWebAPI\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenterWebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenterWebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenterWebAPI\bin\Debug\net5.0\NewsCenter.Web.ViewModels.dll
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenterWebAPI\bin\Debug\net5.0\NewsCenter.Web.ViewModels.pdb

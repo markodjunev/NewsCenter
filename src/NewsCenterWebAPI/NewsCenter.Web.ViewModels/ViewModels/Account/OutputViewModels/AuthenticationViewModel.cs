@@ -1,4 +1,4 @@
-﻿namespace NewsCenterWebAPI.ViewModels.Account.OutputViewModels
+﻿namespace NewsCenter.Web.ViewModels.ViewModels.Account.OutputViewModels
 {
     public class AuthenticationViewModel
     {

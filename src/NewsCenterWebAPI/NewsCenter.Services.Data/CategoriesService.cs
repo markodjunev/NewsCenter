@@ -1,6 +1,7 @@
 ﻿using NewsCenter.Data.Common.Repositories;
 using NewsCenter.Data.Models;
 using NewsCenter.Services.Data.Interfaces;
+using NewsCenter.Web.ViewModels.ViewModels.Categories.OutputViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,6 +41,18 @@ namespace NewsCenter.Services.Data
 
             await this.categoriesRepository.AddAsync(category);
             await this.categoriesRepository.SaveChangesAsync();
+        }
+
+        public IEnumerable<CategoryViewModel> GetAll()
+        {
+            var categories = this.All().OrderBy(c => c.Name).Select(c => new CategoryViewModel
+            {
+                Id = c.Id,
+                Name = c.Name,
+                ImageUrl = c.ImageUrl,
+            });
+
+            return categories;
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace NewsCenterWebAPI.ViewModels.Account.InputModels
+﻿namespace NewsCenter.Web.ViewModels.ViewModels.Account.InputModels
 {
     using System.ComponentModel.DataAnnotations;
 

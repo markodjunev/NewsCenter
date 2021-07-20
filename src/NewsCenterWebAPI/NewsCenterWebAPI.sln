@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsCenter.Data.Models", "N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsCenter.Services.Data", "NewsCenter.Services.Data\NewsCenter.Services.Data.csproj", "{2D70A3C7-7C49-4FEE-AA84-46B10DE860EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsCenter.Web.ViewModels", "NewsCenter.Web.ViewModels\NewsCenter.Web.ViewModels.csproj", "{2C88E5F5-47B4-400B-8DAB-B35604D3FD0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{2D70A3C7-7C49-4FEE-AA84-46B10DE860EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D70A3C7-7C49-4FEE-AA84-46B10DE860EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D70A3C7-7C49-4FEE-AA84-46B10DE860EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C88E5F5-47B4-400B-8DAB-B35604D3FD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C88E5F5-47B4-400B-8DAB-B35604D3FD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C88E5F5-47B4-400B-8DAB-B35604D3FD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C88E5F5-47B4-400B-8DAB-B35604D3FD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{D19D475C-9718-45DF-87DB-A7EFF4A7FA15} = {290C5C14-D5BF-4F44-8C3F-4CE896EB329F}
 		{D608AA0C-FDE8-485C-9286-41D2AC170A06} = {290C5C14-D5BF-4F44-8C3F-4CE896EB329F}
 		{2D70A3C7-7C49-4FEE-AA84-46B10DE860EF} = {D5F934D6-9AAC-45D9-B098-F9531AC9B689}
+		{2C88E5F5-47B4-400B-8DAB-B35604D3FD0C} = {03DF53CE-7136-4D16-96E9-F7FF745BCCA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {263E886E-0AAF-491C-BAE9-41251A187B2B}

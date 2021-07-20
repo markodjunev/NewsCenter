@@ -7,15 +7,15 @@
     using Microsoft.Extensions.Options;
     using NewsCenter.Data.Models;
     using NewsCenterWebAPI.Helpers;
-    using NewsCenterWebAPI.ViewModels.Account.InputModels;
     using System.Threading.Tasks;
     using System;
-    using NewsCenterWebAPI.ViewModels.Common;
     using System.IdentityModel.Tokens.Jwt;
     using System.Text;
     using Microsoft.IdentityModel.Tokens;
     using System.Security.Claims;
-    using NewsCenterWebAPI.ViewModels.Account.OutputViewModels;
+    using NewsCenter.Web.ViewModels.ViewModels.Account.InputModels;
+    using NewsCenter.Web.ViewModels.ViewModels.Common;
+    using NewsCenter.Web.ViewModels.ViewModels.Account.OutputViewModels;
 
     public class AccountController : ApiController
     {
