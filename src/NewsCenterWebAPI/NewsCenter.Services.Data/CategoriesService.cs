@@ -54,5 +54,12 @@ namespace NewsCenter.Services.Data
 
             return categories;
         }
+
+        public Category GetByName(string name)
+        {
+            var category = this.All().FirstOrDefault(x => x.Name == name);
+
+            return category;
+        }
     }
 }

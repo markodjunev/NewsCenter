@@ -9,3 +9,4 @@ C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewMo
 C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\NewsCenter.Web.ViewModels.dll
 C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\ref\NewsCenter.Web.ViewModels.dll
 C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\NewsCenter.Web.ViewModels.pdb
+C:\Users\User\Source\Repos\NewsCenter\src\NewsCenterWebAPI\NewsCenter.Web.ViewModels\obj\Debug\net5.0\NewsCenter.Web.ViewModels.csproj.AssemblyReference.cache

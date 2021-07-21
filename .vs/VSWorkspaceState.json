@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\NewsCenterWebAPI"
   ],
-  "SelectedNode": "\\NewsCenterWebAPI.sln",
+  "SelectedNode": "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI.sln",
   "PreviewInSolutionExplorer": false
 }
