@@ -1,6 +1,7 @@
 ﻿using NewsCenter.Data.Common.Repositories;
 using NewsCenter.Data.Models;
 using NewsCenter.Services.Data.Interfaces;
+using NewsCenter.Web.ViewModels.ViewModels.Admin.Articles.InputModels;
 using NewsCenter.Web.ViewModels.ViewModels.Categories.OutputViewModels;
 using System;
 using System.Collections.Generic;
@@ -55,11 +56,22 @@ namespace NewsCenter.Services.Data
             return categories;
         }
 
-        public Category GetByName(string name)
+        public Category GetById(int id)
         {
-            var category = this.All().FirstOrDefault(x => x.Name == name);
+            var category = this.All().FirstOrDefault(x => x.Id == id);
 
             return category;
+        }
+
+        public IEnumerable<CategoryDropDownModel> GetDropDownModels()
+        {
+            var categories = this.All().Select(x => new CategoryDropDownModel
+            {
+                Id = x.Id,
+                Name = x.Name,
+            });
+
+            return categories;
         }
     }
 }

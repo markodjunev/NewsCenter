@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\NewsCenterWebAPI"
+    "\\src\\NewsCenterWebAPI",
+    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI",
+    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Areas",
+    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Areas\\Admin",
+    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Areas\\Admin\\Controllers"
   ],
-  "SelectedNode": "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI.sln",
+  "SelectedNode": "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Areas\\Admin\\Controllers\\ArticlesController.cs",
   "PreviewInSolutionExplorer": false
 }

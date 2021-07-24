@@ -14,6 +14,6 @@
         public string ImageUrl { get; set; }
 
         [Required]
-        public string CategoryName { get; set; }
+        public int CategoryId { get; set; }
     }
 }

@@ -8,7 +8,6 @@
     using System.Threading.Tasks;
 
     [Route("admin/[controller]")]
-    [Authorize(Roles = "Administrator")]
     public class ArticlesController : ApiController
     {
         private readonly IArticlesService articlesService;
@@ -24,14 +23,19 @@
         [Route(nameof(Create))]
         public async Task<IActionResult> Create(CreateArticleInputModel input)
         {
-            var category = this.categoriesService.GetByName(input.CategoryName);
+            if (!this.User.IsInRole("Administrator"))
+            {
+                return Unauthorized("You are not admin");
+            }
+
+            var category = this.categoriesService.GetById(input.CategoryId);
 
             if (category == null)
             {
                 return BadRequest("Category with this name doesn't exist!");
             }
 
-            await this.articlesService.CreateAsync(input.Title, input.ImageUrl, input.Content, category.Id);
+            await this.articlesService.CreateAsync(input.Title, input.ImageUrl, input.Content, input.CategoryId);
 
             return Ok();
         }
