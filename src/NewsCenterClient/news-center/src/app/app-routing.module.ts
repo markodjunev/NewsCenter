@@ -6,6 +6,7 @@ import { LoginComponent } from './users/login/login.component';
 import { RegisterComponent } from './users/register/register.component';
 import { AuthGuardService } from './services/auth/auth-guard.service';
 import { AdminAuthGuardService } from './services/auth/admin-auth-guard.service';
+import { EditArticleComponent } from './admin/edit-article/edit-article.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'register', component: RegisterComponent},
   { path: 'admin/articles/create', component: CreateArticleComponent, canActivate: [AdminAuthGuardService]},
+  { path: 'admin/articles/edit/:id', component: EditArticleComponent, canActivate: [AdminAuthGuardService]},
 ];
 
 @NgModule({
