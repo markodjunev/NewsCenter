@@ -1,12 +1,14 @@
 ﻿namespace NewsCenter.Services.Data
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
     using NewsCenter.Data.Common.Repositories;
     using NewsCenter.Data.Models;
     using NewsCenter.Services.Data.Interfaces;
     using NewsCenter.Web.ViewModels.ViewModels.Admin.Articles.OutputViewModels;
+    using NewsCenter.Web.ViewModels.ViewModels.Articles.OutputViewModels;
 
     public class ArticlesService : IArticlesService
     {
@@ -72,6 +74,34 @@
 
             this.articlesRepository.Update(article);
             await this.articlesRepository.SaveChangesAsync();
+        }
+
+        public int CountByCategoryId(int id)
+        {
+            return this.All().Where(x => x.CategoryId == id).Count();
+        }
+
+        public IEnumerable<AllArticlesByCategory> GetAllArticlesByCategoryId(int categoryId, int? take = null, int skip = 0)
+        {
+            var articles = this.All()
+                .Where(x => x.CategoryId == categoryId)
+                .OrderByDescending(x => x.CreatedOn)
+                .Select(x => new AllArticlesByCategory
+                {
+                    Id = x.Id,
+                    Title = x.Title,
+                    Content = x.Content,
+                    ImageUrl = x.ImageUrl,
+                    CreatedOn = x.CreatedOn,
+                })
+                .Skip(skip);
+
+            if (take.HasValue)
+            {
+                articles = articles.Take(take.Value);
+            }
+
+            return articles;
         }
     }
 }
