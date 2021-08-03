@@ -6,7 +6,7 @@
             <img [src]="category.imageUrl" width="200" class="mr-3" alt="category.name">
             <div class="media-body">
                 <h5 class="mt-0">
-                    {{category.name}}
+                    <a routerLink="/categories/{{category.id}}">{{category.name}}</a>
                 </h5>
             </div>
         </div>

@@ -12,8 +12,6 @@
 
         public string Content { get; set; }
 
-        public string ShortContent => this.Content.Length > 100 ? this.Content.Substring(0, 99) + "..." : this.Content;
-
         public DateTime CreatedOn { get; set; }
     }
 }

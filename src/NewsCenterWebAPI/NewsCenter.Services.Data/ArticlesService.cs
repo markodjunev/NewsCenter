@@ -90,7 +90,7 @@
                 {
                     Id = x.Id,
                     Title = x.Title,
-                    Content = x.Content,
+                    Content = x.Content.Length > 100 ? x.Content.Substring(0, 99) + "..." : x.Content,
                     ImageUrl = x.ImageUrl,
                     CreatedOn = x.CreatedOn,
                 })
