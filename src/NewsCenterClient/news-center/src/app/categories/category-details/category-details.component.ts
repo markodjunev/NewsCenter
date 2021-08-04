@@ -29,7 +29,7 @@ export class CategoryDetailsComponent implements OnInit {
       this.page = params['page'];
     });
 
-    if(this.page === undefined){
+    if (this.page === undefined) {
       this.page = 1;
     }
 
@@ -38,4 +38,14 @@ export class CategoryDetailsComponent implements OnInit {
     });
   }
 
+  array(i: number) {
+    return new Array(i);
+  }
+
+  changePage(p: number){
+    this.router.navigate(['categories/' + this.id], { queryParams: { page: p } })
+    .then(() => {
+      window.location.reload();
+    });
+  }
 }
