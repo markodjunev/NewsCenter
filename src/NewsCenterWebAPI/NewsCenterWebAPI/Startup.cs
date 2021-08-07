@@ -91,6 +91,7 @@ namespace NewsCenterWebAPI
             services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
             services.AddScoped<ICategoriesService, CategoriesService>();
             services.AddScoped<IArticlesService, ArticlesService>();
+            services.AddScoped<ICommentsService, CommentsService>();
 
             services.AddControllers();
         }
