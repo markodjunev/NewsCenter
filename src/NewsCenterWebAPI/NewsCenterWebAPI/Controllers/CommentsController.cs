@@ -52,5 +52,29 @@
 
             return this.Ok();
         }
+
+        [HttpDelete]
+        [Route(nameof(Delete) + "/{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var comment = this.commentsService.GetById(id);
+
+            if (comment == null)
+            {
+                return BadRequest("Comment doesn't exist");
+            }
+
+            var creator = await this.userManager.FindByNameAsync(this.User.Identity.Name);
+
+            if (this.User.IsInRole("Administrator") || creator.Id == comment.CreatorId)
+            {
+                await this.commentsService.DeleteAsync(id);
+                return Ok();
+            }
+            else
+            {
+                return Unauthorized();
+            }
+        }
     }
 }

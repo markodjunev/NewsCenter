@@ -49,5 +49,23 @@ namespace NewsCenter.Services.Data
             var exist = this.All().Any(x => x.Id == parentCommentId && x.ArticleId == articleId);
             return exist;
         }
+
+        public Comment GetById(int id)
+        {
+            var comment = this.All().FirstOrDefault(x => x.Id == id);
+            return comment;
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var comment = this.All().FirstOrDefault(x => x.Id == id);
+
+            comment.IsDeleted = true;
+            comment.DeletedOn = DateTime.UtcNow;
+            comment.ModifiedOn = DateTime.UtcNow;
+
+            this.commentsRepository.Update(comment);
+            await this.commentsRepository.SaveChangesAsync();
+        }
     }
 }
