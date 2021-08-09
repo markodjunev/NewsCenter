@@ -92,6 +92,7 @@ namespace NewsCenterWebAPI
             services.AddScoped<ICategoriesService, CategoriesService>();
             services.AddScoped<IArticlesService, ArticlesService>();
             services.AddScoped<ICommentsService, CommentsService>();
+            services.AddScoped<ILikeCommentsService, LikeCommentsService>();
 
             services.AddControllers();
         }
