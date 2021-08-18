@@ -9,6 +9,7 @@
     using NewsCenter.Services.Data.Interfaces;
     using NewsCenter.Web.ViewModels.ViewModels.Admin.Articles.OutputViewModels;
     using NewsCenter.Web.ViewModels.ViewModels.Articles.OutputViewModels;
+    using NewsCenter.Web.ViewModels.ViewModels.Comments.OutputViewModels;
 
     public class ArticlesService : IArticlesService
     {
@@ -102,6 +103,34 @@
             }
 
             return articles;
+        }
+
+        public ArticleDetailsViewModel GetArticleDetails(int id, string userId)
+        {
+            var article = this.All().Where(x => x.Id == id)
+                .Select(x => new ArticleDetailsViewModel
+                {
+                    Id = x.Id,
+                    Title = x.Title,
+                    ImageUrl = x.ImageUrl,
+                    Content = x.Content,
+                    CreatedOn = x.CreatedOn,
+                    Comments = x.Comments.Select(c => new CommentDetailsViewModel
+                    {
+                        Id = c.Id,
+                        ArticleId = c.Id,
+                        Content = c.Content,
+                        ParentCommentId = c.ParentCommentId,
+                        CreatorId = c.CreatorId,
+                        CreatorUserName = c.Creator.UserName,
+                        CreatedOn = c.CreatedOn,
+                        IsLiked = c.LikeComments.Where(lc => lc.IsDeleted == false).Any(lc => lc.CommentId == c.Id && lc.UserId == userId),
+                        LikesCount = c.LikeComments.Where(lc => lc.IsDeleted == false && lc.CommentId == c.Id).Count(),
+                    })
+                    .ToList(),
+                }).FirstOrDefault();
+
+            return article;
         }
     }
 }

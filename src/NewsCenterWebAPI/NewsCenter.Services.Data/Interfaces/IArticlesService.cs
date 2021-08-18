@@ -18,5 +18,7 @@
         IEnumerable<AllArticlesByCategory> GetAllArticlesByCategoryId(int categoryId, int? take = null, int skip = 0);
 
         int CountByCategoryId(int id);
+
+        ArticleDetailsViewModel GetArticleDetails(int id, string userId);
     }
 }

@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using NewsCenter.Data.Models;
 using NewsCenter.Services.Data.Interfaces;
 using NewsCenter.Web.ViewModels.ViewModels.Articles.OutputViewModels;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace NewsCenterWebAPI.Controllers
@@ -15,11 +15,19 @@ namespace NewsCenterWebAPI.Controllers
 
         private readonly ICategoriesService categoriesService;
         private readonly IArticlesService articlesService;
+        private readonly UserManager<ApplicationUser> userManager;
+        private readonly SignInManager<ApplicationUser> signInManager;
 
-        public ArticlesController(ICategoriesService categoriesService, IArticlesService articlesService)
+        public ArticlesController(
+            ICategoriesService categoriesService,
+            IArticlesService articlesService,
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager)
         {
             this.categoriesService = categoriesService;
             this.articlesService = articlesService;
+            this.userManager = userManager;
+            this.signInManager = signInManager;
         }
 
         [HttpGet]
@@ -56,6 +64,24 @@ namespace NewsCenterWebAPI.Controllers
             }
 
             return articles;
+        }
+
+        [HttpGet]
+        [Route(nameof(Details) + "/{id}")]
+        public async Task<ActionResult<ArticleDetailsViewModel>> Details(int id)
+        {
+            var exist = this.articlesService.Exist(id);
+
+            if (!exist)
+            {
+                return this.BadRequest("Article doesn't exist!");
+            }
+
+            var user = await this.userManager.FindByNameAsync(this.User.Identity.Name);
+
+            var model = this.articlesService.GetArticleDetails(id, user.Id);
+
+            return model;
         }
     }
 }
