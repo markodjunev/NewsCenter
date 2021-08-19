@@ -30,7 +30,7 @@ namespace NewsCenterWebAPI.Middlewares
                 ("Music", "https://www.bensound.com/bensound-img/happyrock.jpg"),
                 ("Programming", "https://learnworthy.net/wp-content/uploads/2019/12/Why-programming-is-the-skill-you-have-to-learn.jpg"),
                 ("Criminal", "https://bloximages.chicago2.vip.townnews.com/tucson.com/content/tncms/assets/v3/editorial/9/63/963df220-c3a4-58aa-95b4-30a11d2edd55/5c4266721bbf0.image.jpg"),
-                ("Politics", "https://www.financialstand.com/wp-content/uploads/2020/11/The-relationship-between-politics-and-economy-www.financialstand.com_.jpg"),
+                ("Politics", "https://ugc.futurelearn.com/uploads/images/f4/ec/f4ec13af-2d48-426d-b48a-7cb362240feb.jpg"),
                 ("World", "https://world-geography-games.com/img/home-america1.png"),
             };
 

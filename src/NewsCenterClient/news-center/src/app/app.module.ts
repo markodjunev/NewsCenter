@@ -17,6 +17,8 @@ import { TokenInterceptorService } from './services/token/token-interceptor.serv
 import { ErrorInterceptorService } from './services/error/error-interceptor.service';
 import { ArticlesService } from './services/articles/articles.service';
 import { CategoriesService } from './services/categories/categories.service';
+import { ArticlesModule } from './articles/articles.module';
+import { LikeCommentsService } from './services/likeComments/like-comments.service';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { CategoriesService } from './services/categories/categories.service';
     UsersModule,
     CategoriesModule,
     AdminModule,
+    ArticlesModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
   ],
@@ -39,6 +42,7 @@ import { CategoriesService } from './services/categories/categories.service';
     AuthService,
     AuthGuardService,
     AdminAuthGuardService,
+    LikeCommentsService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: TokenInterceptorService,

@@ -1,4 +1,4 @@
-import { IArticleByCategory } from "./IArticleByCategory";
+import { IArticleByCategory } from "../articles/IArticleByCategory";
 
 export interface ICategoryDetails {
     allArticlesByCategory: Array<IArticleByCategory>;

@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 import { Observable } from 'rxjs/internal/Observable';
-import { ICategory } from '../../models/ICategory';
-import { ICategoryDropDown } from '../../models/ICategoryDropDown';
+import { ICategory } from '../../models/categories/ICategory';
+import { ICategoryDropDown } from '../../models/categories/ICategoryDropDown';
 
 @Injectable({
   providedIn: 'root'

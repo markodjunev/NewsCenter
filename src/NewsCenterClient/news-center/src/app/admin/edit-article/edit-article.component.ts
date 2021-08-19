@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-import { ICategoryDropDown } from '../../models/ICategoryDropDown';
-import { IEditArticle } from '../../models/IEditArticle';
-import { IUpdateArticle } from '../../models/IUpdateArticle';
+import { ICategoryDropDown } from '../../models/categories/ICategoryDropDown';
+import { IEditArticle } from '../../models/articles/IEditArticle';
+import { IUpdateArticle } from '../../models/articles/IUpdateArticle';
 import { ArticlesService } from '../../services/articles/articles.service';
 import { CategoriesService } from '../../services/categories/categories.service';
 

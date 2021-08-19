@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ArticlesService } from '../../services/articles/articles.service';
-import { ICategoryDetails } from '../../models/ICategoryDetails';
+import { ICategoryDetails } from '../../models/categories/ICategoryDetails';
 
 @Component({
   selector: 'app-category-details',

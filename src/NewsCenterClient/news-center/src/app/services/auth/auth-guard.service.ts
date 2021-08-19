@@ -10,10 +10,10 @@ export class AuthGuardService implements CanActivate {
   constructor(private authService: AuthService, private router: Router) { }
 
   canActivate(): boolean {
-    if (this.authService.isAdmin()) {
+    if (this.authService.isAuthenticated()) {
       return true;
     } else {
-      alert('Only admins have access to this page!')
+      alert('You need to login to see this page!');
       this.router.navigate(['home']);
       return false;
     }

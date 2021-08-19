@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ICategory } from '../../models/ICategory';
+import { ICategory } from '../../models/categories/ICategory';
 import { CategoriesService } from '../../services/categories/categories.service';
 
 @Component({
