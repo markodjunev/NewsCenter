@@ -5,11 +5,9 @@
 
     public interface ICommentsService
     {
-        bool Exist(int? id);
+        bool Exist(int id);
 
-        Task CreateAsync(string content, int articleId, int? parentCommentId, string creatorId);
-
-        bool CheckParentCommentArticleId(int? parentCommentId, int articleId);
+        Task CreateAsync(string content, int articleId, string creatorId);
 
         Comment GetById(int id);
 

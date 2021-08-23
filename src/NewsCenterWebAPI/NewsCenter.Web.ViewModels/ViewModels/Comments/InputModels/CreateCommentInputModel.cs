@@ -9,7 +9,5 @@
 
         [Required]
         public int ArticleId { get; set; }
-
-        public int? ParentCommentId { get; set; }
     }
 }

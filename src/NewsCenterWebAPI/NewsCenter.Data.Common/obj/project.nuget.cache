@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ib6mdk4KOYC7Gb14WgdeVNAkMbU5eoTs60icaJkeTWHYHl5qtL4JFuZJPLmbtGVizc2l9AADZlkGxlot3F4ejA==",
+  "dgSpecHash": "8TCmdy6dtvs1lnMS0RCbyk7hQB1UnlQYTXcRLWkKVAb0g9M6z/0BHBSzsdNLTDkRnqcB1yqvS4ueOYlWxiqJ3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj",
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\NewsCenterWebAPI.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\NewsCenterWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj",
         "projectName": "NewsCenter.Data.Common",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj",
         "projectName": "NewsCenter.Data.Models",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -100,8 +100,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj"
+              "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj",
         "projectName": "NewsCenter.Data",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -174,11 +174,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj"
+              "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj"
+              "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj"
               }
             }
           }
@@ -233,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj",
         "projectName": "NewsCenter.Services.Data",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -263,14 +263,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj"
+              "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Common\\NewsCenter.Data.Common.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj"
+              "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data.Models\\NewsCenter.Data.Models.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj"
+              "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj"
               }
             }
           }
@@ -309,14 +309,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj",
         "projectName": "NewsCenter.Web.ViewModels",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -375,14 +375,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\NewsCenterWebAPI.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\NewsCenterWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\NewsCenterWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\NewsCenterWebAPI.csproj",
         "projectName": "NewsCenterWebAPI",
-        "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\NewsCenterWebAPI.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\NewsCenterWebAPI.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -405,14 +405,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj"
+              "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Data\\NewsCenter.Data.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj"
+              "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\NewsCenter.Services.Data.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj"
+              "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\NewsCenter\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\NewsCenter.Web.ViewModels.csproj"
               }
             }
           }

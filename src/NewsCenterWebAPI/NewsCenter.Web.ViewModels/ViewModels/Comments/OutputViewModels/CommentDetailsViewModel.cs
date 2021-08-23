@@ -10,8 +10,6 @@
 
         public int ArticleId { get; set; }
 
-        public int? ParentCommentId { get; set; }
-
         public string CreatorId { get; set; }
 
         public string CreatorUserName { get; set; }

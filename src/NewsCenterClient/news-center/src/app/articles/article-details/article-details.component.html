@@ -12,6 +12,10 @@
                     </div>
                 </div>
 
+                <hr>
+
+                <div class="text-center m-5" *ngIf='article.comments?.length == 0'>No comments yet!</div>
+
                 <div *ngFor='let comment of article.comments'>
                     <div class="card m-5" style="width: 30rem;">
                         <div class="card-header">

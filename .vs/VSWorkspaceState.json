@@ -1,18 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\NewsCenterWebAPI",
-    "\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels",
-    "\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\ViewModels",
-    "\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\ViewModels\\Admin",
-    "\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\ViewModels\\Admin\\Articles",
-    "\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\ViewModels\\Admin\\Articles\\OutputViewModels",
-    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI",
-    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Areas",
-    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Areas\\Admin",
-    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Areas\\Admin\\Controllers"
+    ""
   ],
-  "SelectedNode": "\\src\\NewsCenterWebAPI\\NewsCenter.Web.ViewModels\\ViewModels\\Admin\\Articles\\OutputViewModels\\UpdateArticleViewModel.cs",
+  "SelectedNode": "\\NewsCenterWebAPI.sln",
   "PreviewInSolutionExplorer": false
 }

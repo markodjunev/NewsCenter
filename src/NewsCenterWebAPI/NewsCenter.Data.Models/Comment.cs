@@ -16,10 +16,6 @@
 
         public virtual Article Article { get; set; }
 
-        public int? ParentCommentId { get; set; }
-
-        public virtual Comment ParentComment { get; set; }
-
         public string CreatorId { get; set; }
 
         public virtual ApplicationUser Creator { get; set; }

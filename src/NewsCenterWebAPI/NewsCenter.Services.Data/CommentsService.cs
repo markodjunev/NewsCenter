@@ -23,18 +23,17 @@ namespace NewsCenter.Services.Data
             return this.commentsRepository.All().Where(x => x.IsDeleted == false);
         }
 
-        public bool Exist(int? id)
+        public bool Exist(int id)
         {
             return this.All().Any(x => x.Id == id);
         }
 
-        public async Task CreateAsync(string content, int articleId, int? parentCommentId, string creatorId)
+        public async Task CreateAsync(string content, int articleId, string creatorId)
         {
             var comment = new Comment
             {
                 Content = content,
                 ArticleId = articleId,
-                ParentCommentId = parentCommentId,
                 CreatorId = creatorId,
                 CreatedOn = DateTime.UtcNow,
                 IsDeleted = false,
@@ -42,12 +41,6 @@ namespace NewsCenter.Services.Data
 
             await this.commentsRepository.AddAsync(comment);
             await this.commentsRepository.SaveChangesAsync();
-        }
-
-        public bool CheckParentCommentArticleId(int? parentCommentId, int articleId)
-        {
-            var exist = this.All().Any(x => x.Id == parentCommentId && x.ArticleId == articleId);
-            return exist;
         }
 
         public Comment GetById(int id)

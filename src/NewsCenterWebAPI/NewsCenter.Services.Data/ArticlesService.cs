@@ -120,7 +120,6 @@
                         Id = c.Id,
                         ArticleId = c.Id,
                         Content = c.Content,
-                        ParentCommentId = c.ParentCommentId,
                         CreatorId = c.CreatorId,
                         CreatorUserName = c.Creator.UserName,
                         CreatedOn = c.CreatedOn,
