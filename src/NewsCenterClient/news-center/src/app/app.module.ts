@@ -19,11 +19,15 @@ import { ArticlesService } from './services/articles/articles.service';
 import { CategoriesService } from './services/categories/categories.service';
 import { ArticlesModule } from './articles/articles.module';
 import { LikeCommentsService } from './services/likeComments/like-comments.service';
+import { MaterialModule } from './material/material.module';
+import { DialogCreateCommentComponent } from './material/dialog-create-comment/dialog-create-comment.component';
+import { CommentsService } from './services/comments/comments.service';
 
 @NgModule({
   declarations: [
     AppComponent,
   ],
+  entryComponents: [DialogCreateCommentComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -35,6 +39,7 @@ import { LikeCommentsService } from './services/likeComments/like-comments.servi
     ArticlesModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
+    MaterialModule,
   ],
   providers: [
     ArticlesService,
@@ -43,6 +48,7 @@ import { LikeCommentsService } from './services/likeComments/like-comments.servi
     AuthGuardService,
     AdminAuthGuardService,
     LikeCommentsService,
+    CommentsService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: TokenInterceptorService,

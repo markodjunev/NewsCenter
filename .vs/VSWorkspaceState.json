@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\NewsCenterWebAPI",
+    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI",
+    "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Controllers"
   ],
-  "SelectedNode": "\\NewsCenterWebAPI.sln",
+  "SelectedNode": "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Controllers\\CommentsController.cs",
   "PreviewInSolutionExplorer": false
 }
