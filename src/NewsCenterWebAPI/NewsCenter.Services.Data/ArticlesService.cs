@@ -125,7 +125,10 @@
                         CreatedOn = c.CreatedOn,
                         IsLiked = c.LikeComments.Where(lc => lc.IsDeleted == false).Any(lc => lc.CommentId == c.Id && lc.UserId == userId),
                         LikesCount = c.LikeComments.Where(lc => lc.IsDeleted == false && lc.CommentId == c.Id).Count(),
+                        IsDeleted = c.IsDeleted,
                     })
+                    .Where(c => c.IsDeleted == false)
+                    .OrderByDescending(c => c.CreatedOn)
                     .ToList(),
                 }).FirstOrDefault();
 

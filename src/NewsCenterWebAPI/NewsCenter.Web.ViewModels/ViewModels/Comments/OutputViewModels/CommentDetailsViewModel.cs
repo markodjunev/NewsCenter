@@ -19,5 +19,7 @@
         public bool IsLiked { get; set; }
 
         public int LikesCount { get; set; }
+
+        public bool IsDeleted { get; set; }
     }
 }

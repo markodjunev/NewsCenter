@@ -23,10 +23,10 @@
         <ng-template #loading>
             Loading...
         </ng-template>
-        <nav *ngIf="model; else loading" aria-label="Orders">
+        <nav *ngIf="model; else loading" aria-label="Articles">
             <ul class="pagination justify-content-center">
                 <li *ngIf="model.previousPage >= 1" class="page-item">
-                    <button (click)="changePage(model.currentPage-1)" class="page-link" aria-label="Previous">
+                    <button (click)="changePage(model.previousPage)" class="page-link" aria-label="Previous">
                         <span aria-hidden="true">&laquo;</span>
                     </button>
                 </li>
@@ -36,7 +36,7 @@
                     </button>
                 </li>
                 <li *ngIf="model.currentPage < model.pagesCount" class="page-item">
-                    <button (click)="changePage(model.currentPage + 1)" class="page-link" aria-label="Next">
+                    <button (click)="changePage(model.nextPage)" class="page-link" aria-label="Next">
                         <span aria-hidden="true">&raquo;</span>
                     </button>
                 </li>

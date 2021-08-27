@@ -60,7 +60,7 @@ namespace NewsCenterWebAPI.Controllers
 
             if (articles.CurrentPage > articles.PagesCount)
             {
-                return this.BadRequest();
+                return this.RedirectToAction("ByCategory", new { page = 1});
             }
 
             return articles;

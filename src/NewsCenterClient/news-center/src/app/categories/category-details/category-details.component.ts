@@ -35,6 +35,7 @@ export class CategoryDetailsComponent implements OnInit {
 
     this.articlesService.byCategory(this.id, this.page).subscribe(data => {
       this.model = data;
+      console.log(this.model);
     });
   }
 
@@ -42,10 +43,10 @@ export class CategoryDetailsComponent implements OnInit {
     return new Array(i);
   }
 
-  changePage(p: number){
+  changePage(p: number) {
     this.router.navigate(['categories/' + this.id], { queryParams: { page: p } })
-    .then(() => {
-      window.location.reload();
-    });
+      .then(() => {
+        window.location.reload();
+      });
   }
 }

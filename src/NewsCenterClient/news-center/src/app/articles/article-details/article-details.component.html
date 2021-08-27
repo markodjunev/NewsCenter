@@ -38,7 +38,10 @@
                                 <a (click)="like(comment.id)" class="btn btn-primary">Like</a>
                             </div>
                             <div *ngIf='comment.isLiked'>
-                                <a (click)="dislike(comment.id)" class="btn btn-danger">Dislike</a>
+                                <a (click)="dislike(comment.id)" class="btn btn-success">Unlike</a>
+                            </div>
+                            <div *ngIf='isCreator(comment.creatorId)'>
+                                <a (click)="deleteComment(comment.id)" class="btn btn-danger">Delete comment</a>
                             </div>
                         </div>
                     </div>
