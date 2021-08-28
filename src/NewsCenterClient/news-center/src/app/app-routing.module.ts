@@ -9,6 +9,7 @@ import { AdminAuthGuardService } from './services/auth/admin-auth-guard.service'
 import { EditArticleComponent } from './admin/edit-article/edit-article.component';
 import { CategoryDetailsComponent } from './categories/category-details/category-details.component';
 import { ArticleDetailsComponent } from './articles/article-details/article-details.component';
+import { NotFoundComponent } from './shared/not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
@@ -19,6 +20,8 @@ const routes: Routes = [
   { path: 'admin/articles/edit/:id', component: EditArticleComponent, canActivate: [AdminAuthGuardService]},
   { path: 'categories/:id', component: CategoryDetailsComponent},
   { path: 'articles/:id', component: ArticleDetailsComponent, canActivate: [AuthGuardService]},
+  { path: 'error', component: NotFoundComponent},
+  {path: '**', redirectTo: 'error'},
 ];
 
 @NgModule({

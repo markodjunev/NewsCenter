@@ -8,7 +8,7 @@
             <hr>
             <div *ngFor="let article of model.allArticlesByCategory">
                 <div class="card">
-                    <img class="card-img-top" [src]="article.imageUrl" alt="Card image cap">
+                    <img class="card-img-top" [src]="article.imageUrl" alt="article.title"/>
                     <div class="card-body">
                         <h5 class="card-title"><a routerLink="/articles/{{article.id}}">{{article.title}}</a></h5>
                         <p class="card-text">{{article.content}}</p>

@@ -70,13 +70,6 @@ namespace NewsCenterWebAPI.Controllers
         [Route(nameof(Details) + "/{id}")]
         public async Task<ActionResult<ArticleDetailsViewModel>> Details(int id)
         {
-            var exist = this.articlesService.Exist(id);
-
-            if (!exist)
-            {
-                return this.BadRequest("Article doesn't exist!");
-            }
-
             var user = await this.userManager.FindByNameAsync(this.User.Identity.Name);
 
             var model = this.articlesService.GetArticleDetails(id, user.Id);

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DialogCreateCommentComponent } from 'src/app/material/dialog-create-comment/dialog-create-comment.component';
 import { ICreateComment } from 'src/app/models/comments/ICreateComment';
 import { CommentsService } from 'src/app/services/comments/comments.service';
@@ -21,6 +21,7 @@ export class ArticleDetailsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
+    private router: Router,
     private articlesService: ArticlesService,
     private likeCommentsService: LikeCommentsService,
     private dialog: MatDialog,
@@ -39,6 +40,9 @@ export class ArticleDetailsComponent implements OnInit {
   fetchArticle() {
     this.articlesService.details(this.id).subscribe(data => {
       this.article = data;
+      if(this.article == null){
+        this.router.navigate(['/error']);
+      }
     });
   }
 
@@ -87,5 +91,13 @@ export class ArticleDetailsComponent implements OnInit {
     this.commentsService.delete(id).subscribe(data => {
       this.fetchArticle();
     });
+  }
+
+  edit(id: number){
+    this.router.navigate(['admin/articles/edit/' + id]);
+  }
+
+  get isAdmin() : boolean {
+    return this.authService.isAdmin();
   }
 }
