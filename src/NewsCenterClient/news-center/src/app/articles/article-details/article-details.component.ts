@@ -47,15 +47,17 @@ export class ArticleDetailsComponent implements OnInit {
   }
 
   like(id: number) {
-    this.likeCommentsService.like(id).subscribe(data =>
-      this.fetchArticle()
-    );
+    this.likeCommentsService.like(id).subscribe();
+    let comment = this.article.comments.find(c => c.id === id);
+    comment.likesCount++;
+    comment.isLiked = true;
   }
 
   dislike(id: number) {
-    this.likeCommentsService.dislike(id).subscribe(data =>
-      this.fetchArticle()
-    );
+    this.likeCommentsService.dislike(id).subscribe();
+    let comment = this.article.comments.find(c => c.id === id);
+    comment.likesCount--;
+    comment.isLiked = false;
   }
 
   openDialog() {
