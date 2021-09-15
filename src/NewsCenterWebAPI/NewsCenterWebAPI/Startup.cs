@@ -100,6 +100,12 @@ namespace NewsCenterWebAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            using var services = app.ApplicationServices.CreateScope();
+
+            var dbContext = services.ServiceProvider.GetService<ApplicationDbContext>();
+
+            dbContext.Database.Migrate();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

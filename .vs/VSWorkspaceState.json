@@ -7,6 +7,6 @@
     "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI",
     "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Controllers"
   ],
-  "SelectedNode": "\\src\\NewsCenterWebAPI\\NewsCenter.Services.Data\\ArticlesService.cs",
+  "SelectedNode": "\\src\\NewsCenterWebAPI\\NewsCenterWebAPI\\Controllers\\ArticlesController.cs",
   "PreviewInSolutionExplorer": false
 }

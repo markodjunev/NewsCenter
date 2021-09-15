@@ -69,7 +69,7 @@ export class EditArticleComponent implements OnInit {
       console.log(data);
       this.toastrService.clear();
       this.toastrService.success("You've edited the article successfully!");
-      this.router.navigate(["/"]);
+      this.router.navigate(["/articles/" + this.id]);
     })
   }
 
